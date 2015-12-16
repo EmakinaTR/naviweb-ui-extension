@@ -1,2 +1,2 @@
 # naviweb-ui-extension
-Chrome extension to extend naviweb ui
+We'll be developing a chrome extension with [Semantic UI](http://semantic-ui.com/) to make naviweb look more beautiful. Stay tuned fellas...
