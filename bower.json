@@ -1,0 +1,21 @@
+{
+  "name": "naviweb-ui-extension",
+  "homepage": "https://github.com/EmakinaTR/naviweb-ui-extension",
+  "authors": [
+    "Emin Can Sumer <emin@emakina.nl>"
+  ],
+  "description": "",
+  "main": "src/app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#~2.1.7"
+  }
+}
