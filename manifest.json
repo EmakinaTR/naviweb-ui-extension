@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Naviweb",
+  "description": "This extension provides a better experience to naviweb",
+  "version": "1.0.0",
+  "permissions": [
+    "webNavigation",
+    "tabs"
+  ],
+  "content_scripts": [{
+        "js": ["src/bg.js"],
+        "matches": ["https://naviweb.emakina.nl/*"]
+  }],
+  "web_accessible_resources": ["src/app.js"],
+  "icons": { 
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png" 
+  }
+}
